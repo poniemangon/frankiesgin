@@ -1,0 +1,50 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.register-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.register-input input {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  @media (min-width: 480px) {
+    .register-input input{
+      width: 400px; 
+    }
+  }
+
+.enviar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.enviar input {
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    background-color: rgb(26, 21, 117);
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5px ;
+}
