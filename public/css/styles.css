@@ -54,7 +54,7 @@ p{
         flex-direction: row;
     }
     .logo {
-        width: 50%;
+        width: 45%;
         padding: 5%;
     }
     .search {
@@ -93,7 +93,8 @@ p{
         align-items: center;
     }
     .logo {
-        width: 50%;
+        width: 40%;
+        margin-right: 5%;
     }
     .search {
         width: 50%;
